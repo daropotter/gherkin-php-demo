@@ -1,20 +1,30 @@
 {
-    "type": "project",
-    "license": "proprietary",
+    "description": "A demo of Gherkin tests in PHP using Behat library.",
+    "type": "demo",
+    "license": "MIT",
+    "readme": "README.md",
     "minimum-stability": "stable",
     "prefer-stable": true,
+    "authors": [{
+        "email": "daropotter@gmail.com",
+        "homepage": "https://daropotter.com",
+        "name": "Daro Potter"
+    }],
     "require": {
         "php": ">=8.0.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "behat/behat": "^3.10",
+        "doctrine/annotations": "^1.13",
+        "guzzlehttp/guzzle": "^7.4",
+        "phpunit/phpunit": "^9.5",
         "symfony/console": "6.0.*",
         "symfony/dotenv": "6.0.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.0.*",
+        "symfony/maker-bundle": "^1.38",
         "symfony/runtime": "6.0.*",
         "symfony/yaml": "6.0.*"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {
